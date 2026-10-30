@@ -1,0 +1,18 @@
+[theme]
+primaryColor = "#5B5FEF"
+backgroundColor = "#F7F8FC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#202235"
+font = "sans serif"
+
+[server]
+headless = true
+enableXsrfProtection = true
+maxUploadSize = 10          # MB; the app enforces MAX_UPLOAD_MB (default 5) on top of this
+
+[client]
+showErrorDetails = "none"   # never show stack traces to users; details go to the logs
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

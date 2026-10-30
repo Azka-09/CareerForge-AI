@@ -1,0 +1,12 @@
+:root{--primary:#5B5FEF;--navy:#15172B;--bg:#F7F8FC;--card:#fff;--text:#202235;--muted:#74788D;--ok:#16A34A;--warn:#F59E0B;--err:#DC2626}
+.stApp{background:var(--bg);color:var(--text)}
+[data-testid="stSidebar"]{background:var(--navy)}
+[data-testid="stSidebar"] *{color:#E6E7F5}
+.cf-hero{background:linear-gradient(135deg,#15172B 0%,#5B5FEF 140%);color:#fff;border-radius:20px;padding:2rem 2.2rem;margin-bottom:1.2rem}
+.cf-hero h1{color:#fff;margin:0 0 .3rem 0;font-size:1.9rem}.cf-hero p{color:#D9DAF7;margin:0}
+.cf-card{background:var(--card);border-radius:16px;padding:1.1rem 1.3rem;box-shadow:0 2px 12px rgba(21,23,43,.06);border:1px solid #ECEEF6;transition:box-shadow .15s}
+.cf-card:hover{box-shadow:0 6px 20px rgba(91,95,239,.15)}
+.cf-stat{font-size:2rem;font-weight:700;color:var(--primary)}.cf-label{color:var(--muted);font-size:.85rem}
+.stButton>button[kind="primary"]{background:linear-gradient(135deg,#5B5FEF,#7C5CFA);border:0;border-radius:10px}
+.stButton>button{border-radius:10px}
+@media(max-width:640px){.cf-hero{padding:1.2rem}.cf-hero h1{font-size:1.4rem}}

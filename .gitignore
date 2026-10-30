@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# data and logs (may contain personal information)
+*.db
+*.sqlite3
+*.log
+uploads/
+user_documents/
+exports/
